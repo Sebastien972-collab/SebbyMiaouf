@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		8BEBB7362580DDDE008F3C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7352580DDDE008F3C1B /* AppDelegate.swift */; };
 		8BEBB7382580DDDE008F3C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7372580DDDE008F3C1B /* SceneDelegate.swift */; };
-		8BEBB73A2580DDDE008F3C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7392580DDDE008F3C1B /* ViewController.swift */; };
 		8BEBB73D2580DDDE008F3C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBB73B2580DDDE008F3C1B /* Main.storyboard */; };
 		8BEBB73F2580DDE3008F3C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBB73E2580DDE3008F3C1B /* Assets.xcassets */; };
 		8BEBB7422580DDE3008F3C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBB7402580DDE3008F3C1B /* LaunchScreen.storyboard */; };
+		8BEBB74B2580DEEB008F3C1B /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB74A2580DEEB008F3C1B /* Races.swift */; };
+		8BEBB74F2580E44E008F3C1B /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB74E2580E44E008F3C1B /* WelcomViewController.swift */; };
+		8BEBB7522580E5D6008F3C1B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7512580E5D6008F3C1B /* FormViewController.swift */; };
+		8BEBB7602580EF0A008F3C1B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB75F2580EF0A008F3C1B /* SuccessViewController.swift */; };
+		8BEBB7632580F49A008F3C1B /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7622580F49A008F3C1B /* CatWelcomeViewController.swift */; };
+		8BEBB7662580FAE5008F3C1B /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7652580FAE5008F3C1B /* CatFormViewController.swift */; };
+		8BEBB7692580FB0C008F3C1B /* CatSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB7682580FB0C008F3C1B /* CatSuccesViewController.swift */; };
+		8BEBB76C25811F6B008F3C1B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBB76B25811F6B008F3C1B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BEBB7322580DDDE008F3C1B /* SebbyMiaOUF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SebbyMiaOUF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEBB7352580DDDE008F3C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BEBB7372580DDDE008F3C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BEBB7392580DDDE008F3C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BEBB73C2580DDDE008F3C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BEBB73E2580DDE3008F3C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BEBB7412580DDE3008F3C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BEBB7432580DDE3008F3C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEBB74A2580DEEB008F3C1B /* Races.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		8BEBB74E2580E44E008F3C1B /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		8BEBB7512580E5D6008F3C1B /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		8BEBB75F2580EF0A008F3C1B /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		8BEBB7622580F49A008F3C1B /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		8BEBB7652580FAE5008F3C1B /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
+		8BEBB7682580FB0C008F3C1B /* CatSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccesViewController.swift; sourceTree = "<group>"; };
+		8BEBB76B25811F6B008F3C1B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				8BEBB7352580DDDE008F3C1B /* AppDelegate.swift */,
 				8BEBB7372580DDDE008F3C1B /* SceneDelegate.swift */,
-				8BEBB7392580DDDE008F3C1B /* ViewController.swift */,
+				8BEBB7622580F49A008F3C1B /* CatWelcomeViewController.swift */,
 				8BEBB73B2580DDDE008F3C1B /* Main.storyboard */,
+				8BEBB7512580E5D6008F3C1B /* FormViewController.swift */,
+				8BEBB76B25811F6B008F3C1B /* Model.swift */,
+				8BEBB74E2580E44E008F3C1B /* WelcomViewController.swift */,
 				8BEBB73E2580DDE3008F3C1B /* Assets.xcassets */,
+				8BEBB74A2580DEEB008F3C1B /* Races.swift */,
 				8BEBB7402580DDE3008F3C1B /* LaunchScreen.storyboard */,
 				8BEBB7432580DDE3008F3C1B /* Info.plist */,
+				8BEBB75F2580EF0A008F3C1B /* SuccessViewController.swift */,
+				8BEBB7652580FAE5008F3C1B /* CatFormViewController.swift */,
+				8BEBB7682580FB0C008F3C1B /* CatSuccesViewController.swift */,
 			);
 			path = SebbyMiaOUF;
 			sourceTree = "<group>";
@@ -137,9 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEBB73A2580DDDE008F3C1B /* ViewController.swift in Sources */,
+				8BEBB74B2580DEEB008F3C1B /* Races.swift in Sources */,
+				8BEBB7662580FAE5008F3C1B /* CatFormViewController.swift in Sources */,
+				8BEBB7692580FB0C008F3C1B /* CatSuccesViewController.swift in Sources */,
 				8BEBB7362580DDDE008F3C1B /* AppDelegate.swift in Sources */,
 				8BEBB7382580DDDE008F3C1B /* SceneDelegate.swift in Sources */,
+				8BEBB76C25811F6B008F3C1B /* Model.swift in Sources */,
+				8BEBB7522580E5D6008F3C1B /* FormViewController.swift in Sources */,
+				8BEBB7632580F49A008F3C1B /* CatWelcomeViewController.swift in Sources */,
+				8BEBB7602580EF0A008F3C1B /* SuccessViewController.swift in Sources */,
+				8BEBB74F2580E44E008F3C1B /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
