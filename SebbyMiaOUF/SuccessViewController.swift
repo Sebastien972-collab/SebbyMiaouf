@@ -9,13 +9,20 @@ import UIKit
 
 class SuccessViewController: UIViewController {
 
+    @IBOutlet weak var messageBienvenue: UILabel!
+    var dog : Pet!
     @IBAction func dissmiss(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setTable()
         // Do any additional setup after loading the view.
+    }
+    private func setTable() {
+        if let name = dog.name{
+            messageBienvenue.text = "Bienvenue " + name
+        }
     }
     
 

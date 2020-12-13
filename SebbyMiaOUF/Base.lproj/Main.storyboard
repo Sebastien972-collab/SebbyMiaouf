@@ -400,8 +400,9 @@
                         <outlet property="genderSegmentedControl" destination="lXO-mD-cba" id="2Ls-KJ-at6"/>
                         <outlet property="majoritySwitch" destination="Hin-jC-B4X" id="fPw-Lw-rBj"/>
                         <outlet property="mobilNumberTextField" destination="szE-an-5tu" id="Foe-sP-nCL"/>
-                        <outlet property="nameTextField" destination="szE-an-5tu" id="uCz-qI-aPo"/>
+                        <outlet property="nameTextField" destination="szE-an-5tu" id="8K1-JB-H1h"/>
                         <outlet property="reacePickerView" destination="Xvc-KG-7sy" id="7uZ-TR-BWg"/>
+                        <segue destination="s1w-ay-SOY" kind="presentation" identifier="segueToSuccess" id="9dX-z1-lFA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfH-4w-bG6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -418,7 +419,7 @@
             <objects>
                 <viewController id="s1w-ay-SOY" customClass="SuccessViewController" customModule="SebbyMiaOUF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ht-Se-5ap">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Waouf !                                                 Vous etes bien insceit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcO-gK-9nH">
@@ -455,6 +456,9 @@
                         <viewLayoutGuide key="safeArea" id="aJ6-df-NXK"/>
                         <color key="backgroundColor" red="0.80358225110000003" green="0.94066160919999997" blue="0.99945396180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="messageBienvenue" destination="ZcO-gK-9nH" id="pGE-wc-dqY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snP-Fe-8dC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="nsf-LZ-Wfa" userLabel="Exit" sceneMemberID="exit"/>
